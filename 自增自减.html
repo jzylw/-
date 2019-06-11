@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<!--
+	i++ ++i
+ 在不参与运算的情况下，i++和++i都是在变量的基础加1
+
+	var n1=123;
+	//n1++; ==>n1=n1+1; 在变量原来的基础上加1
+	++n1; //==>n1=n1+1;在变量原来的基础上加1
+	alert(n1);
+	
+	在参与运算的情况下
+	
+	var n1=123;
+	// var n2=n1++; // 先将n1赋值给n2,之后n1再自增
+	var n2=++n1; //n1先自增，在赋值给n2
+	alert(n2);
+	alert(n1);
+	
+	var i=123
+	var j=i++; 先将i的值123赋值给j,之后再自增
+	j的值为123 i的值为124
+	var j=++i; i先自增，在赋值给j
+-->
+	<script type="text/javascript">
+//	var n1=123;
+//	n1++; ==>n1=n1+1; // 在变量原来的基础上加1
+//	++n1; ==>n1=n1+n1;  //在变量原来的基础上加1
+//	alert(n1);
+	var n1=123;
+	var n2=n1++; //先将n1赋值给n2,之后n1再自增
+	var n2=++n1; //n1先自增，在赋值给n2.
+	alert(n2);
+	alert(n1);	
+	</script>
+</head>
+
+<body>
+</body>
+</html>
